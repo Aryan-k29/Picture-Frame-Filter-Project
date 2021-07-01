@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Project 113</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+  	border:1px solid black;
+  }
+  body {
+    background: linear-gradient(#9efffd 0%, #9191ff 100%);
+  }
+  label{
+    background: white;
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px white;
+}
+.copy_right_footer{
+    position: fixed;
+    color: grey;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(#9efffd 0%, #9191ff 100%);
+    line-height: 3;
+    text-align: center;
+    background-image: url("coral.jpg");
+    height: 20%;
+    width: 100%;
+}
+  </style>
+</head>
+
+<body>
+  <center>
+<div class="container">
+	<h3 class="btn btn-primary">Take a Personalized Selfie</h3>
+	<hr>
+  <label>Filter Color : <input class="btn btn-info" id="color_name" placeholder="Enter Filter Color"></label>
+  <br><br>
+  <button onclick="filter_tint()" class="btn btn-warning">Apply Filter</button>
+  <br><br>
+  <button onclick="take_snapshot()" class="btn btn-success">Take Snapshot</button>
+  <br><br>
+</div>
+</center>
+<div class="copy_right_footer">
+    Developed by - Anushka Sinha
+  </div>
+<script src="main.js"></script>
+</body>
+
+</html>
